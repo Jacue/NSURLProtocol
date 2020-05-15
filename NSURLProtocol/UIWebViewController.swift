@@ -11,6 +11,7 @@ import UIKit
 class UIWebViewController: UIViewController, UISearchBarDelegate {
 
     var webView: UIWebView?
+    var searchBar: UISearchBar?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,17 +25,24 @@ class UIWebViewController: UIViewController, UISearchBarDelegate {
         
         self.navigationController?.navigationBar.isTranslucent = false
         
-        let searchBar = UISearchBar.init(frame: CGRect.init(x: 0, y: 0, width: view.bounds.size.width, height: 60))
-        searchBar.delegate = self
-        view.addSubview(searchBar)
+        searchBar = UISearchBar.init(frame: CGRect.init(x: 0, y: 0, width: view.bounds.size.width, height: 60))
+        searchBar!.text = "https://www.baidu.com"
+        searchBar!.delegate = self
+        view.addSubview(searchBar!)
         
         webView = UIWebView(frame: CGRect.init(x: 0, y: 60, width: view.bounds.size.width, height: view.bounds.size.height - 60))
         view.addSubview(webView!)
+        
+        self.loadRequestOfSearchBarContent()
     }
 
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         searchBar.resignFirstResponder()
-        let searchText = searchBar.text
+        self.loadRequestOfSearchBarContent()
+    }
+    
+    func loadRequestOfSearchBarContent() {
+        let searchText = searchBar!.text
         let searchUrl = URL(string: searchText!)
         let searchRequest = URLRequest(url: searchUrl!)
         webView?.loadRequest(searchRequest)

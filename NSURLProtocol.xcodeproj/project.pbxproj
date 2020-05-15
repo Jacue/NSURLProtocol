@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B1D0BE1246EA82500654E47 /* CustomURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D0BE0246EA82500654E47 /* CustomURLProtocol.swift */; };
 		4BCCFBE7246A715700BF52D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCFBE6246A715700BF52D0 /* AppDelegate.swift */; };
 		4BCCFBE9246A715700BF52D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCFBE8246A715700BF52D0 /* SceneDelegate.swift */; };
 		4BCCFBEB246A715700BF52D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCFBEA246A715700BF52D0 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B1D0BE0246EA82500654E47 /* CustomURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomURLProtocol.swift; sourceTree = "<group>"; };
 		4BCCFBE3246A715700BF52D0 /* NSURLProtocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSURLProtocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BCCFBE6246A715700BF52D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BCCFBE8246A715700BF52D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				4BCCFBEA246A715700BF52D0 /* ViewController.swift */,
 				4BCCFBFA246A766200BF52D0 /* UIWebViewController.swift */,
 				4BCCFBFC246A768600BF52D0 /* WKWebViewController.swift */,
+				4B1D0BE0246EA82500654E47 /* CustomURLProtocol.swift */,
 				4BCCFBEC246A715700BF52D0 /* Main.storyboard */,
 				4BCCFBEF246A715800BF52D0 /* Assets.xcassets */,
 				4BCCFBF1246A715800BF52D0 /* LaunchScreen.storyboard */,
@@ -221,6 +224,7 @@
 			files = (
 				4BCCFBFD246A768600BF52D0 /* WKWebViewController.swift in Sources */,
 				4BCCFBEB246A715700BF52D0 /* ViewController.swift in Sources */,
+				4B1D0BE1246EA82500654E47 /* CustomURLProtocol.swift in Sources */,
 				4BCCFBE7246A715700BF52D0 /* AppDelegate.swift in Sources */,
 				4BCCFBE9246A715700BF52D0 /* SceneDelegate.swift in Sources */,
 				4BCCFBFB246A766200BF52D0 /* UIWebViewController.swift in Sources */,
