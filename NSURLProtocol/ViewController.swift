@@ -8,7 +8,7 @@
 
 import UIKit
 
-let cellTitles = ["NSURLConnection", "NSURLSession", "UIWebView", "WKWebView", "React Native"]
+let cellTitles = ["NSURLConnection", "NSURLSession", "UIWebView", "WKWebView", "React Native", "Flutter"]
 
 class ViewController: UIViewController {
     

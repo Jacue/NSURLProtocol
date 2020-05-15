@@ -22,7 +22,7 @@ class WKWebViewController: UIViewController {
     
     fileprivate func setUpWKwebView() {
         let webConfiguration = WKWebViewConfiguration()
-        let myURL = URL(string: "https://www.baidu.com")
+        let myURL = URL(string: "https://www.apple.com.cn")
         webView = WKWebView(frame: view.bounds, configuration: webConfiguration)
         let myRequest = URLRequest(url: myURL!)
         webView?.load(myRequest)
