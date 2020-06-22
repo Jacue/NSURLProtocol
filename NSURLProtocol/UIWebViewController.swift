@@ -31,9 +31,9 @@ class UIWebViewController: UIViewController, UISearchBarDelegate {
         view.addSubview(searchBar!)
         
         webView = UIWebView(frame: CGRect.init(x: 0, y: 60, width: view.bounds.size.width, height: view.bounds.size.height - 60))
-        view.addSubview(webView!)
-        
+        webView?.delegate = self
         self.loadRequestOfSearchBarContent()
+        view.addSubview(webView!)
     }
 
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
@@ -42,10 +42,29 @@ class UIWebViewController: UIViewController, UISearchBarDelegate {
     }
     
     func loadRequestOfSearchBarContent() {
-        let searchText = searchBar!.text
-        let searchUrl = URL(string: searchText!)
-        let searchRequest = URLRequest(url: searchUrl!)
-        webView?.loadRequest(searchRequest)
+        if let searchText = searchBar?.text,
+            let searchUrl = URL(string: searchText),
+            let searchRequest = URLRequest(url: searchUrl) as URLRequest? {
+            webView?.loadRequest(searchRequest)
+        }
     }
 
+}
+
+extension UIWebViewController: UIWebViewDelegate {
+    func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebView.NavigationType) -> Bool {
+        return true
+    }
+    
+    func webViewDidStartLoad(_ webView: UIWebView) {
+        
+    }
+    
+    func webViewDidFinishLoad(_ webView: UIWebView) {
+        
+    }
+    
+    func webView(_ webView: UIWebView, didFailLoadWithError error: Error) {
+        
+    }
 }

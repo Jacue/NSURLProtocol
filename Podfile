@@ -6,7 +6,7 @@ target 'NSURLProtocol' do
   use_frameworks!
 
   # Pods for NSURLProtocol
-  pod 'Alamofire'
+  pod 'Alamofire', '4.8.0'
   pod 'AFNetworking'
 
 end

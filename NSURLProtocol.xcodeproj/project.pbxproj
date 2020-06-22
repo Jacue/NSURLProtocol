@@ -8,12 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4B1D0BE1246EA82500654E47 /* CustomURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D0BE0246EA82500654E47 /* CustomURLProtocol.swift */; };
+		4B5177F824A089E20098C4A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5177F624A089E20098C4A8 /* LaunchScreen.storyboard */; };
 		4BCCFBE7246A715700BF52D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCFBE6246A715700BF52D0 /* AppDelegate.swift */; };
-		4BCCFBE9246A715700BF52D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCFBE8246A715700BF52D0 /* SceneDelegate.swift */; };
 		4BCCFBEB246A715700BF52D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCFBEA246A715700BF52D0 /* ViewController.swift */; };
-		4BCCFBEE246A715700BF52D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BCCFBEC246A715700BF52D0 /* Main.storyboard */; };
 		4BCCFBF0246A715800BF52D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BCCFBEF246A715800BF52D0 /* Assets.xcassets */; };
-		4BCCFBF3246A715800BF52D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BCCFBF1246A715800BF52D0 /* LaunchScreen.storyboard */; };
 		4BCCFBFB246A766200BF52D0 /* UIWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCFBFA246A766200BF52D0 /* UIWebViewController.swift */; };
 		4BCCFBFD246A768600BF52D0 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCFBFC246A768600BF52D0 /* WKWebViewController.swift */; };
 		885F123DF214991F7AC7E20B /* Pods_NSURLProtocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7BE067CBD6EEC2F2A2A86AB /* Pods_NSURLProtocol.framework */; };
@@ -21,13 +19,11 @@
 
 /* Begin PBXFileReference section */
 		4B1D0BE0246EA82500654E47 /* CustomURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomURLProtocol.swift; sourceTree = "<group>"; };
+		4B5177F724A089E20098C4A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BCCFBE3246A715700BF52D0 /* NSURLProtocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSURLProtocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BCCFBE6246A715700BF52D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4BCCFBE8246A715700BF52D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4BCCFBEA246A715700BF52D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4BCCFBED246A715700BF52D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BCCFBEF246A715800BF52D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4BCCFBF2246A715800BF52D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BCCFBF4246A715800BF52D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BCCFBFA246A766200BF52D0 /* UIWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWebViewController.swift; sourceTree = "<group>"; };
 		4BCCFBFC246A768600BF52D0 /* WKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
@@ -70,14 +66,12 @@
 			isa = PBXGroup;
 			children = (
 				4BCCFBE6246A715700BF52D0 /* AppDelegate.swift */,
-				4BCCFBE8246A715700BF52D0 /* SceneDelegate.swift */,
 				4BCCFBEA246A715700BF52D0 /* ViewController.swift */,
 				4BCCFBFA246A766200BF52D0 /* UIWebViewController.swift */,
 				4BCCFBFC246A768600BF52D0 /* WKWebViewController.swift */,
 				4B1D0BE0246EA82500654E47 /* CustomURLProtocol.swift */,
-				4BCCFBEC246A715700BF52D0 /* Main.storyboard */,
+				4B5177F624A089E20098C4A8 /* LaunchScreen.storyboard */,
 				4BCCFBEF246A715800BF52D0 /* Assets.xcassets */,
-				4BCCFBF1246A715800BF52D0 /* LaunchScreen.storyboard */,
 				4BCCFBF4246A715800BF52D0 /* Info.plist */,
 			);
 			path = NSURLProtocol;
@@ -160,9 +154,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BCCFBF3246A715800BF52D0 /* LaunchScreen.storyboard in Resources */,
 				4BCCFBF0246A715800BF52D0 /* Assets.xcassets in Resources */,
-				4BCCFBEE246A715700BF52D0 /* Main.storyboard in Resources */,
+				4B5177F824A089E20098C4A8 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +219,6 @@
 				4BCCFBEB246A715700BF52D0 /* ViewController.swift in Sources */,
 				4B1D0BE1246EA82500654E47 /* CustomURLProtocol.swift in Sources */,
 				4BCCFBE7246A715700BF52D0 /* AppDelegate.swift in Sources */,
-				4BCCFBE9246A715700BF52D0 /* SceneDelegate.swift in Sources */,
 				4BCCFBFB246A766200BF52D0 /* UIWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,18 +226,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4BCCFBEC246A715700BF52D0 /* Main.storyboard */ = {
+		4B5177F624A089E20098C4A8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4BCCFBED246A715700BF52D0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4BCCFBF1246A715800BF52D0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4BCCFBF2246A715800BF52D0 /* Base */,
+				4B5177F724A089E20098C4A8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -372,6 +356,7 @@
 			baseConfigurationReference = 79288E21D6032D0B92CAE9D3 /* Pods-NSURLProtocol.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RSKK94MX83;
 				INFOPLIST_FILE = NSURLProtocol/Info.plist;
@@ -382,7 +367,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Jacue.com.NSURLProtocol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_CFLAGS = "-Wno-deprecated-declarations";
 			};
@@ -393,6 +379,7 @@
 			baseConfigurationReference = 8CFE58746C56424EB0F24B11 /* Pods-NSURLProtocol.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RSKK94MX83;
 				INFOPLIST_FILE = NSURLProtocol/Info.plist;
@@ -403,7 +390,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Jacue.com.NSURLProtocol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_CFLAGS = "-Wno-deprecated-declarations";
 			};
