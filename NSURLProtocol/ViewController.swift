@@ -8,7 +8,7 @@
 
 import UIKit
 
-let cellTitles = ["NSURLConnection", "NSURLSession", "UIWebView", "WKWebView", "React Native", "Flutter"]
+let cellTitles = ["NSURLConnection", "NSURLSession", "WKWebView", "React Native", "Flutter"]
 
 class ViewController: UIViewController {
     
@@ -45,9 +45,6 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         if(indexPath.row == 2) {
-            let wkWebViewController = UIWebViewController()
-            self.navigationController?.pushViewController(wkWebViewController, animated: true)
-        } else if (indexPath.row == 3) {
             let wkWebViewController = WKWebViewController()
             self.navigationController?.pushViewController(wkWebViewController, animated: true)
         }
